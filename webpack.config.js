@@ -25,12 +25,16 @@ export default {
                 use: ["style-loader", "css-loader"],
             },
             {
-                test: /\.(png|jpg|jpeg|svg|gif)$/i,
+                test: /\.(png|jpg|jpeg|svg|gif|cur)$/i,
                 type: "asset/resource",
             },
             {
                 test: /\.html$/i,
                 use: ["html-loader"],
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: "asset/resource",
             },
         ],
     },
