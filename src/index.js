@@ -1,1 +1,1 @@
-console.log();
+import "./assets/css/global.css";
