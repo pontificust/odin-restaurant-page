@@ -1,0 +1,1 @@
+export { mainTab } from "./mainTab/mainTab.js";
