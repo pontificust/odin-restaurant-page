@@ -415,6 +415,15 @@ template {
   display: none;
 }
 
+*, *::before, *::after {
+    
+    cursor: url("../img/falloutNW.cur"), auto !important;
+}
+
+button, a, label {
+    cursor: url("../img/falloutNW.cur"), pointer !important;
+}
+
 html,
 body,
 div,
@@ -586,18 +595,14 @@ body {
     padding: 10px 40px;
     border-right: 2px solid var(--main-text-color);
     transition: all .4s;
-    cursor: url("../img/falloutNW.cur"), pointer;
 }
 
 .header__nav-tab:last-of-type .header__nav-btn {
     border: none;
 }
 
-.header__nav-btn:hover
-.header__nav-btn:active {
+.header__nav-btn:hover {
     filter: brightness(1.4);
-    background-color: rgba(255, 184, 0, 0.1);
-    cursor: url("../img/falloutNW.cur"), pointer;
 }
 
 .header__nav-btn.active {
