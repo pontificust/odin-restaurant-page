@@ -1,7 +1,7 @@
 import { Element } from "../Element/Element.js";
 import burgerIcon from "./burger.png";
 
-export const main = [
+export const homeElements = [
     new Element('section', [
         new Element('h2', 'WELCOM TO GLUTTON', { className: 'hero__title' }),
         new Element('img', '', { className: 'hero__icon', alt: 'logo image', src: burgerIcon }),
