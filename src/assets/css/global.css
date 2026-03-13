@@ -541,6 +541,7 @@ body {
     background-color: var(--main-background-color);
     cursor: url("../img/falloutNW.cur"), auto;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .header {
