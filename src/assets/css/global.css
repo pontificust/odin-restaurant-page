@@ -605,86 +605,11 @@ body {
     pointer-events: none;
 }
 
-/* main page styles start*/
+/* menu page styles start*/
 
-#content {
-    padding: 0 80px;
-}
 
-.hero,
-.about {
-    color: var(--main-text-color);
-    text-shadow: var(--text-shadow);
-    border: 5px solid var(--main-text-color);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--main-text-color);
-    padding: 30px 0;
-}
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 70px;
-}
-
-.hero__title,
-.hero__subtitle {
-    color: var(--main-text-color);
-    font-size: 5rem;
-    font-family: 'Share Tech Mono';
-    text-shadow: var(--text-shadow);
-}
-
-.hero__subtitle {
-    font-size: 3rem;
-    /* font-family: 'Roboto'; */
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 2rem;
-    font-family: 'Roboto';
-    padding: 30px;
-    margin-bottom: 30px;
-}
-
-.about__title {
-    font-size: 2.5rem;
-}
-
-.about__indicators {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.about__indicator span {
-    text-transform: uppercase;
-}
-
-.status__items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    list-style: none;
-}
-
-.status__item {
-    text-align: center;
-    color: var(--main-text-color);
-    text-shadow: var(--text-shadow);
-    border: 2px solid var(--main-text-color);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px var(--main-text-color);
-    padding: 10px 30px;
-    font-size: 2rem;
-}
-
-/* main page styles end*/
+/* menu page styles end*/
 
 /* footer styles start*/
 
