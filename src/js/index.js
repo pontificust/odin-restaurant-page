@@ -2,6 +2,8 @@ import "../assets/css/global.css";
 import { homeTab, contactTab, menuTab, EventHandler, safeTransition } from "./modules/modules.js";
 
 window.addEventListener('DOMContentLoaded', () => {
+
+    console.log(process.env.NODE_ENV)
     homeTab();
     const eventHandler = new EventHandler(homeTab, menuTab, contactTab);
     document.addEventListener('click', (e) => {
